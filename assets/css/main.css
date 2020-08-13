@@ -1,0 +1,23 @@
+#result {
+	height: 60px;
+    background-color: gray;
+    text-align: right;
+    padding-right: 22px;
+    padding-top: 3px;
+    padding-bottom: 20px;
+    font-size: 30pt;
+    font-family: monospace;
+    color: black;
+}
+
+.num,.op {
+	background-color: #eee;
+	font-size: 12pt;
+	padding: 20px;
+	border: 1px solid black;
+	border-radius: 5px;
+}
+
+#coco{
+    text-align: right;
+}

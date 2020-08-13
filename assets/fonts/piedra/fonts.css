@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'Piedra';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Piedra_400_normal.eot); /* http://fonts.gstatic.com/s/piedra/v8/ke8kOg8aN0Bn7hTunQ.eot */
+    src: local('☺'),
+        url(Piedra_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/piedra/v8/ke8kOg8aN0Bn7hTunQ.eot */
+        url(Piedra_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/piedra/v8/ke8kOg8aN0Bn7hTumQ.woff2 */
+        url(Piedra_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/piedra/v8/ke8kOg8aN0Bn7hTunw.woff */
+        url(Piedra_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/piedra/v8/ke8kOg8aN0Bn7hTunEyBN_I.ttf */
+        url(Piedra_400_normal.svg#Piedra_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=ke8kOg8aN0Bn7hTung&skey=d83c4402d5b65d6a&v=v8#Piedra */
+}

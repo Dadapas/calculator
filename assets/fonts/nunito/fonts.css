@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Nunito_400_normal.eot); /* http://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofINeaF.eot */
+    src: local('☺'),
+        url(Nunito_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofINeaF.eot */
+        url(Nunito_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofINeaB.woff2 */
+        url(Nunito_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofINeaH.woff */
+        url(Nunito_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/nunito/v12/XRXV3I6Li01BKofINeaETMnFcQ.ttf */
+        url(Nunito_400_normal.svg#Nunito_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=XRXV3I6Li01BKofINeaG&skey=27bb6aa8eea8a5e7&v=v12#Nunito */
+}
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 600;
+    src: url(Nunito_600_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Nunito_600_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Nunito_600_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofA6sKUYevI.woff2 */
+        url(Nunito_600_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofA6sKUYevO.woff */
+        url(Nunito_600_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofA6sKUYevNWzgPDA.ttf */
+        url(Nunito_600_normal.svg#Nunito_600_normal) format('svg'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Nunito';
+    font-style: normal;
+    font-weight: 700;
+    src: url(Nunito_700_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Nunito_700_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Nunito_700_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUYevI.woff2 */
+        url(Nunito_700_normal.woff) format('woff'), /* http://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUYevO.woff */
+        url(Nunito_700_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/nunito/v12/XRXW3I6Li01BKofAjsOUYevNWzgPDA.ttf */
+        url(Nunito_700_normal.svg#Nunito_700_normal) format('svg'); /* {{svg-gf-url}} */
+}

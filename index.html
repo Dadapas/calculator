@@ -6,72 +6,93 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="assets/bts45/css/bootstrap.min.css">
   <link rel="stylesheet" href="assets/css/main.css">
-  <title>Document</title>
+  <link rel="stylesheet" href="assets/fonts/piedra/fonts.css">
+  <link rel="stylesheet" href="assets/fonts/nunito/fonts.css">
+  <title>Calculator</title>
 </head>
 <body>
-  <!-- <h3>Interpret read me by dadapas</h3> -->
-  
   <div id="container" class="container">
-  	<h4 class="text-center">Calculator</h4>
   	<div class="elements">
+      <h4 class="text-left">Calculator</h4>
   		<div class="inputs">
-  			<textarea id="coco" class="form-control" name="input" id="" cols="30" rows="3"></textarea>
+  			<input id="coco" class="form-control" autofocus/>
   		</div>
-  		<div id="result">0</div>
+      <div class="group-result">
+        <span class="f-left">=</span>
+        <div id="result">0</div>
+      </div>
   	</div>
   	<div class="numbers">
   		<div class="row">
+        <div class="col">
+          <div class="btn add">(</div>
+        </div>
+        <div class="col">
+          <div class="btn add">)</div>
+        </div>
+        <div class="col">
+          <div class="btn" onclick="pourcentage()">%</div>
+        </div>
+        <div class="col">
+  				<div class="btn add op">x</div>
+  			</div>
+        <div class="w-100"></div>
   			<div class="col">
-  				<button class="btn num">7</button>
+          <div class="btn add">7</div>
+        </div>
+  			<div class="col">
+  				<div class="btn add num">8</div>
   			</div>
   			<div class="col">
-  				<button class="btn num">8</button>
+  				<div class="btn add num">9</div>
+  			</div>
+        <div class="col">
+  				<div class="btn add num">-</div>
+  			</div>
+        <div class="w-100"></div>
+        <div class="col">
+  				<div class="btn add num">4</div>
   			</div>
   			<div class="col">
-  				<button class="btn num">9</button>
+  				<div class="btn add num">5</div>
   			</div>
   			<div class="col">
-  				<button class="btn op">+</button>
+  				<div class="btn add num">6</div>
   			</div>
-  		</div>
-  		<div class="row">
-  			<div class="col">
-  				<button class="btn num">4</button>
+        <div class="col">
+  				<div class="btn add op">+</div>
   			</div>
-  			<div class="col">
-  				<button class="btn num">5</button>
-  			</div>
-  			<div class="col">
-  				<button class="btn num">6</button>
+        <div class="w-100"></div>
+        <div class="col">
+  				<div class="btn add num">1</div>
   			</div>
   			<div class="col">
-  				<button class="btn num">-</button>
-  			</div>
-  		</div>
-  		<div class="row">
-  			<div class="col">
-  				<button class="btn num">1</button>
+  				<div class="btn add num">2</div>
   			</div>
   			<div class="col">
-  				<button class="btn num">2</button>
+  				<div class="btn add num">3</div>
   			</div>
-  			<div class="col">
-  				<button class="btn num">3</button>
+        <div class="col">
+  				<div class="btn add">÷</div>
   			</div>
-  			<div class="col">
-  				<button class="btn op" value="*">x</button>
+        <div class="w-100"></div>
+        <div class="col">
+  				<div class="btn op clear" onclick="clearAll()">C</div>
   			</div>
-  			<div class="col">
-  				<button class="btn op">C</button>
+        <div class="col">
+  				<div class="btn add num">0</div>
   			</div>
-  		</div>
-  		<div class="row">
-  			<div class="col">
-  				<button class="btn num" value="/">/</button>
+        <div class="col">
+  				<div class="btn add num">.</div>
+  			</div>
+        <div class="col">
+  				<div class="btn calc result" onclick="evalResult()">=</div>
   			</div>
   		</div>
   	</div>
-  	<p class="text-center">&copy; Created by <a href="https://github.com/Dadapas" >Dadapas</a></p>
+  	<footer>
+      <p class="text-center">&copy; Created by <a target="_top" href="https://github.com/Dadapas" >TOVOHERY</a></p>
+    </footer>
   </div>
 
   <script src="assets/js/app.js" charset="utf-8"></script>

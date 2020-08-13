@@ -1,11 +1,10 @@
 {
-  "name": "Readme_reader",
-  "version": "1.0.0",
+  "name": "Calculator",
+  "version": "0.1.0",
   "description": "",
   "main": "main.js",
   "dependencies": {
-    "electron": "^8.3.0",
-    "showdown": "^1.9.1"
+    "electron": "^8.3.0"
   },
   "devDependencies": {},
   "scripts": {

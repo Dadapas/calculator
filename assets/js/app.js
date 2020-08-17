@@ -1,3 +1,10 @@
+const {ipcRenderer} = require('electron');
+
+const close = document.querySelector('.close')
+close.addEventListener('click', () => {
+    ipcRenderer.send('close-me')
+});
+
 function factorial(n){
 	if (n<=1) return 1;
 	if (n>14) return "Too mutch number"
@@ -9,6 +16,8 @@ function modulo(a, b){
 	if (b<0) return "Not be negative"
 	return (+a)%(+b);
 }
+
+
 
 function pourcentage(){
 	textarea.value = /^(\-*\d+\.*\d*)$/.test(textarea.value) ? (+textarea.value / 100):0

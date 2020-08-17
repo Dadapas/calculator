@@ -11,6 +11,34 @@
   color: white;
 }
 
+.controls {
+  /* -webkit-user-select: none; */
+  -webkit-app-region: drag;
+  height: 60px;
+  display: block;
+  padding-top: 13px;
+}
+
+.llers {
+  background: white;
+  height: 39px;
+  padding-top: 5px;
+  width: 100px;
+  padding-right: 5px;
+  float: right;
+}
+
+.controls .ctrl {
+  -webkit-app-region: none;
+  background: red;
+  border-radius: 53px;
+  width: 30px;
+  height: 30px;
+  padding-bottom: 30px;
+  padding-top: -3px;
+  color: white;
+}
+
 body {
 	background: #f4c1d1;
 }
@@ -19,6 +47,7 @@ body {
 	background-color: #eee;
   width: 100%;
   margin-top: 10px;
+  transition: 1.5s;
 }
 
 * {
@@ -26,6 +55,7 @@ body {
 }
 #container{
 	margin-top: 20px;
+  padding: 0 5px;
 }
 h4.text-left {
 	color: white;
@@ -70,6 +100,11 @@ footer {
   box-shadow: 8px 4px 14px 2px #6c757d;
 }
 
+.btn:not(.semon):hover {
+  background-color: lightgray;
+  border: 1.5px solid black;
+}
+
 .f-left {
   position: absolute;
   font-size: 26pt;
@@ -102,5 +137,5 @@ button.btn.num {
 .result:hover{
 	pointer: none;
 	color: white;
-	
+
 }
